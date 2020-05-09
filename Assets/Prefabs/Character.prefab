@@ -239,9 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 9edfe08b94f447e44a1082bc15c3d9a8, type: 2}
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1 &1146274640924630994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,13 +2216,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 1146274640924630994}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 5480594088137209300}
+    - {fileID: 0}
 --- !u!114 &3351152469922778280
 MonoBehaviour:
   m_ObjectHideFlags: 0
