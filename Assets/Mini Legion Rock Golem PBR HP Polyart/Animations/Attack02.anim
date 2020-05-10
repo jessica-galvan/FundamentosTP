@@ -86728,7 +86728,7 @@ AnimationClip:
   m_Events:
   - time: 1
     functionName: TriggerAnimationEvent
-    data: OnHit
+    data: OnHitMele
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
