@@ -34,8 +34,9 @@ Transform:
   m_Children:
   - {fileID: 470372}
   - {fileID: 459818}
-  - {fileID: 7371438636924130043}
   - {fileID: 8227417360359385803}
+  - {fileID: 6548739018020336044}
+  - {fileID: 7371438636924130043}
   - {fileID: 3513881519529577155}
   - {fileID: 6556723662754029629}
   m_Father: {fileID: 0}
@@ -73,13 +74,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"detectionBox","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"detectionBox","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackZone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5734183266903317322}
     - {fileID: 0}
     - {fileID: 91749464813263969}
     - {fileID: 8346704058118389917}
     - {fileID: 4181857356925878094}
+    - {fileID: 2317059820623522024}
 --- !u!114 &5047701222118469351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,6 +1880,98 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.15547426, y: -0.00000011920929, z: 1.5440778}
     m_Extent: {x: 0.524557, y: 0.9607476, z: 1.5555972}
   m_DirtyAABB: 0
+--- !u!1 &2317059820623522024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6548739018020336044}
+  - component: {fileID: 3576877517200715474}
+  - component: {fileID: 5600943926064320025}
+  - component: {fileID: 8252266248673272338}
+  m_Layer: 0
+  m_Name: BruteAttackZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6548739018020336044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317059820623522024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45, y: 1.53, z: 1.98}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3576877517200715474
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317059820623522024}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &5600943926064320025
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317059820623522024}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9e562128bdfaf354583310464e861e93, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &8252266248673272338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2317059820623522024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3562985782131596627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,12 +2004,12 @@ RectTransform:
   m_Children:
   - {fileID: 1449361655153535478}
   m_Father: {fileID: 400000}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 357, y: 223}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5272102167044885135
 Canvas:
@@ -2008,7 +2102,7 @@ Transform:
   m_LocalScale: {x: 20, y: 5, z: 20}
   m_Children: []
   m_Father: {fileID: 400000}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &40053388772545224
 MeshFilter:
@@ -2162,7 +2256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8227417360359385803
 Transform:
   m_ObjectHideFlags: 0
@@ -2171,11 +2265,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5734183266903317322}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.02, y: 2.19, z: 1.41}
-  m_LocalScale: {x: 2.5, y: 3.1756635, z: 2.5}
+  m_LocalPosition: {x: 0.02, y: 1.61, z: 1.41}
+  m_LocalScale: {x: 2.5, y: 3, z: 2.5}
   m_Children: []
   m_Father: {fileID: 400000}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5697944053681861582
 MeshFilter:
@@ -2297,7 +2391,7 @@ Transform:
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_Children: []
   m_Father: {fileID: 400000}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &8128992634735246487
 ParticleSystem:
