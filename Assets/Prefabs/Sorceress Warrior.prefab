@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackSpawnPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"detectionBox","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMagicAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"isMelee","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackSpawnPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"detectionBox","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMagicAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1294734253903617721}
     - {fileID: 18153871988681410}
@@ -428,7 +428,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.27178627, y: 0.000009846527, z: 0.00000023841858}
+  m_ConnectedAnchor: {x: 0.27178907, y: 0.0000027684753, z: 0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -638,7 +638,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.2709103, y: 0.00000561528, z: 0.00000023841858}
+  m_ConnectedAnchor: {x: 0.27091315, y: -0.0000014776731, z: 0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -732,7 +732,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.09826867, y: -0.16426302, z: -0.000010530331}
+  m_ConnectedAnchor: {x: -0.09826867, y: -0.1642602, z: -0.0000036161803}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
