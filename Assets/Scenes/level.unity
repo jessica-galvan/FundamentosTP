@@ -11328,6 +11328,99 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937664409}
   m_CullTransparentMesh: 0
+--- !u!1 &947171969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947171970}
+  - component: {fileID: 947171973}
+  - component: {fileID: 947171972}
+  - component: {fileID: 947171971}
+  m_Layer: 5
+  m_Name: Blood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &947171970
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947171969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1491944823}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.3, y: -0}
+  m_SizeDelta: {x: 952.9, y: 622.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &947171971
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947171969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc190f87ce066014c8643efbe5865d8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &947171972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947171969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4a67ba137d305484bb4970e03b92c44c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &947171973
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947171969}
+  m_CullTransparentMesh: 0
 --- !u!1 &952460916
 GameObject:
   m_ObjectHideFlags: 0
@@ -21961,6 +22054,7 @@ RectTransform:
   - {fileID: 1949815170}
   - {fileID: 1264784889}
   - {fileID: 1687898531}
+  - {fileID: 947171970}
   m_Father: {fileID: 1606482275}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25809,7 +25903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"healthCurrent","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthMax","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarCurrent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healthBarDamageTaken","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"maxHealthVector","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"collectableText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"menu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorMessage","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlMenu","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inControl","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"healthCurrent","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthMax","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarCurrent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healthBarDamageTaken","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"maxHealthVector","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"collectableText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"menu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorMessage","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlMenu","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inControl","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"blood","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canBleed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 170719499}
     - {fileID: 792529211}
@@ -25818,6 +25912,7 @@ MonoBehaviour:
     - {fileID: 208045032}
     - {fileID: 274577907}
     - {fileID: 1644960130}
+    - {fileID: 947171969}
 --- !u!114 &1606482272
 MonoBehaviour:
   m_ObjectHideFlags: 0
