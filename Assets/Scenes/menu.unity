@@ -416,12 +416,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"control","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlBool","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"menu","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"title","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundMenu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"control","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlBool","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"menu","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"title","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundMenu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"buttons","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 419097018}
     - {fileID: 1638655011}
     - {fileID: 886985452}
     - {fileID: 523616133}
+    - {fileID: 1638655011}
 --- !u!1 &285296400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638655012}
+  - component: {fileID: 1638655013}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -2263,6 +2265,25 @@ Transform:
   m_Father: {fileID: 203182323}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1638655013
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638655011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0eafa30b1ef1ca4ea2f3fbe2dada45b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1841734852
 GameObject:
   m_ObjectHideFlags: 0
