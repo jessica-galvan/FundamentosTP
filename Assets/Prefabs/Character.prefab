@@ -174,7 +174,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 145
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -409,7 +409,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7919c9b455a0a104abe68f0738053dc6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 28f302259aa9bf947af49050c1e1c797, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -536,7 +536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ec97b70655cefd0499ae52a1e0cb17f3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ca0f4bebf1ce38843bfae063b8221ade, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -781,9 +781,265 @@ Transform:
   - {fileID: 1133202111}
   - {fileID: 1163883676}
   - {fileID: 1028370818}
+  - {fileID: 1844414994}
+  - {fileID: 1506977217}
   m_Father: {fileID: 1296118883871390373}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1506977216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1506977217}
+  - component: {fileID: 1506977218}
+  m_Layer: 0
+  m_Name: GameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506977217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506977216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212775031}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1506977218
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506977216}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c5195689dc203cc4c85705803b919333, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1844414993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1844414994}
+  - component: {fileID: 1844414995}
+  m_Layer: 0
+  m_Name: Victory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844414994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844414993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1212775031}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1844414995
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844414993}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1147b2600b4128249abd542394dbd423, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1903942512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,7 +3140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 1146274640924630994}
@@ -2898,6 +3154,7 @@ MonoBehaviour:
     - {fileID: 1133202112}
     - {fileID: 325555686}
     - {fileID: 1163883677}
+    - {fileID: 1506977218}
 --- !u!114 &3351152469922778280
 MonoBehaviour:
   m_ObjectHideFlags: 0

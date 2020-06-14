@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"detectionBox","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackZone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"detectionBox","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackZone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isRunning","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"anticipationTimer","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5734183266903317322}
     - {fileID: 0}
@@ -6801,7 +6801,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 24615aee33076ab4d9c2c39094aa4819, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7192,7 +7192,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c40458ab8b0ffaa4ca2d571331d73872, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7307,8 +7307,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5734183266903317322}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.02, y: 1.61, z: 1.41}
-  m_LocalScale: {x: 2.5, y: 3, z: 2.5}
+  m_LocalPosition: {x: -0.0354, y: 1.61, z: 1.276}
+  m_LocalScale: {x: 1.7810982, y: 3, z: 2.2319999}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 2
@@ -7444,7 +7444,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c180056acdbd9164d8efe832a1ebbda0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -7571,7 +7571,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ec97b70655cefd0499ae52a1e0cb17f3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12451,7 +12451,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 42b33b81ec7d6fd4ebb686381634f047, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
