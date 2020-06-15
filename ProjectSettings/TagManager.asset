@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Ground
   - Collectable
+  - Walls
   layers:
   - Default
   - TransparentFX
