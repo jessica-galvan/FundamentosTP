@@ -8627,7 +8627,7 @@ Transform:
   m_Children:
   - {fileID: 2118791759}
   m_Father: {fileID: 1506802128}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719611941
 GameObject:
@@ -21848,7 +21848,7 @@ Transform:
   m_Children:
   - {fileID: 8701040326522092598}
   m_Father: {fileID: 1506802128}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1455660072
 GameObject:
@@ -22748,8 +22748,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1445115961}
   - {fileID: 715986462}
+  - {fileID: 1445115961}
   m_Father: {fileID: 1273702488}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34506,7 +34506,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.91
+      value: -47.92
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -34516,7 +34516,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 105.06
+      value: 136.04
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -37067,11 +37067,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mage Warrior
-      objectReference: {fileID: 0}
-    - target: {fileID: 7860751346357000968, guid: 6a9c277ab1745384ea12882486f345bb,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860751346357000981, guid: 6a9c277ab1745384ea12882486f345bb,
         type: 3}
