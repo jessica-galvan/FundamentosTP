@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285690183656471716}
   m_LocalRotation: {x: -0, y: 0.71257204, z: -0, w: 0.70159906}
-  m_LocalPosition: {x: 0.02, y: 1.21, z: 1.44}
+  m_LocalPosition: {x: 0.02, y: 2.33, z: 1.44}
   m_LocalScale: {x: 2, y: 2, z: 4}
   m_Children: []
   m_Father: {fileID: 7865517883195751339}
@@ -152,7 +152,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500561749507179962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.29}
   m_LocalScale: {x: 5, y: 1, z: 2}
   m_Children:
   - {fileID: 921627281471020259}
@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.64}
-  m_SizeDelta: {x: 3, y: 3}
+  m_AnchoredPosition: {x: -0.14, y: 2.38}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2062318625830470718
 Canvas:
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 6944569526593233567}
   - component: {fileID: 838222168064829116}
   m_Layer: 0
-  m_Name: BossDead
+  m_Name: Boss2Dead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1, y: 0.2}
+  m_SizeDelta: {x: 0.8, y: 0.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8528174418331449546
 CanvasRenderer:
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 1313039553657467802}
   - component: {fileID: 7140385096668992199}
   m_Layer: 0
-  m_Name: Particle System-DamageEffect
+  m_Name: Particle System2-DamageEffect
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -450,7 +450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2557571258218001707}
   m_LocalRotation: {x: -0, y: 0.71257204, z: -0, w: 0.70159906}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.12, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 7865517883195751339}
@@ -5188,7 +5188,7 @@ GameObject:
   - component: {fileID: 1776284985470887737}
   - component: {fileID: 1896170949899126218}
   m_Layer: 0
-  m_Name: BossAttack
+  m_Name: Boss2Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5367,7 +5367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3773232572157167504}
   m_LocalRotation: {x: -0, y: 0.71257204, z: -0, w: 0.70159906}
-  m_LocalPosition: {x: 0, y: 1.53, z: 0}
+  m_LocalPosition: {x: 0, y: 2.65, z: 0}
   m_LocalScale: {x: 5, y: 3, z: 8}
   m_Children: []
   m_Father: {fileID: 7865517883195751339}
@@ -5443,7 +5443,7 @@ GameObject:
   - component: {fileID: 5428284195300494429}
   - component: {fileID: 7303511659860641167}
   m_Layer: 0
-  m_Name: BossAnticipation
+  m_Name: Boss2Anticipation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5713,7 +5713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4796260569539212288}
   m_LocalRotation: {x: -0, y: 0.71257204, z: -0, w: 0.70159906}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.12, z: 0}
   m_LocalScale: {x: 15, y: 5, z: 15}
   m_Children: []
   m_Father: {fileID: 7865517883195751339}
@@ -5789,7 +5789,7 @@ GameObject:
   - component: {fileID: 2845010064580180859}
   - component: {fileID: 8092130170346816440}
   m_Layer: 0
-  m_Name: BossFootsteps
+  m_Name: Boss2Footsteps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5961,7 +5961,7 @@ GameObject:
   - component: {fileID: 2662540844926233465}
   - component: {fileID: 4160570587432003791}
   m_Layer: 0
-  m_Name: BossTakeDamage
+  m_Name: Boss2TakeDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6094,15 +6094,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 388476416, guid: 7df524699deb44341b3693c8538df185, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.79
       objectReference: {fileID: 0}
     - target: {fileID: 388476416, guid: 7df524699deb44341b3693c8538df185, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.52
+      value: -1.45
       objectReference: {fileID: 0}
     - target: {fileID: 388476416, guid: 7df524699deb44341b3693c8538df185, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 388476416, guid: 7df524699deb44341b3693c8538df185, type: 3}
       propertyPath: m_LocalRotation.x
