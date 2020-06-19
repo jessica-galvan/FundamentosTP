@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"attackAnticipationTimer","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"startAnticipation","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackSpawnPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"detectionBox","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMagicAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"chargingEffect","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isCooling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"mesh","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"attackAnticipationTimer","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"startAnticipation","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackSpawnPoint","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"detectionBox","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMagicAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"chargingEffect","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isCooling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"mesh","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinEffect","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1294734253903617721}
     - {fileID: 18153871988681410}
@@ -274,6 +274,7 @@ MonoBehaviour:
     - {fileID: 3342961026297182049}
     - {fileID: 6321211803227899285}
     - {fileID: 7414642417476997576}
+    - {fileID: 8189294484707697414}
 --- !u!1 &1294734253588037101
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +468,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.27178907, y: 0.0000027684753, z: 0.00000023841858}
+  m_ConnectedAnchor: {x: 0.27179086, y: 0.0000003470366, z: -0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -677,7 +678,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.27091315, y: -0.0000014776731, z: 0.00000023841858}
+  m_ConnectedAnchor: {x: 0.270915, y: 0.00000033281802, z: -0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -771,7 +772,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.48884314, y: -0.0018364359, z: -0.021383652}
+  m_ConnectedAnchor: {x: 0.4888454, y: -0.0018439533, z: -0.021380523}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -864,7 +865,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.2429981, y: -0.0000024189217, z: 0.00000023841858}
+  m_ConnectedAnchor: {x: 0.24300012, y: -0.0000000049334687, z: -0.00000023841858}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -3099,6 +3100,7 @@ Transform:
   m_Children:
   - {fileID: 2448266783429174875}
   - {fileID: 4443943025238219460}
+  - {fileID: 8192205855299421910}
   m_Father: {fileID: 1294734253587871005}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13068,4 +13070,85 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1537593200154216, guid: 25093a0593dc83043a7bc17ebba0e95d,
     type: 3}
   m_PrefabInstance: {fileID: 158752564944338432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &171411869915562051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3637052027714313885}
+    m_Modifications:
+    - target: {fileID: 8342581592632009541, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_Name
+      value: ExplosionCoin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f2f9c0fc74a1ec44180020266d266a7a, type: 3}
+--- !u!4 &8192205855299421910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8345299724037064341, guid: f2f9c0fc74a1ec44180020266d266a7a,
+    type: 3}
+  m_PrefabInstance: {fileID: 171411869915562051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8189294484707697414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8342581592632009541, guid: f2f9c0fc74a1ec44180020266d266a7a,
+    type: 3}
+  m_PrefabInstance: {fileID: 171411869915562051}
   m_PrefabAsset: {fileID: 0}
