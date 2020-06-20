@@ -511,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1121941046
 Transform:
   m_ObjectHideFlags: 0
@@ -520,7 +520,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121941045}
   m_LocalRotation: {x: -0.34173504, y: 0.71588695, z: 0.27012956, w: 0.5456675}
-  m_LocalPosition: {x: 1.367, y: 0.437, z: 0.775}
+  m_LocalPosition: {x: -0.257, y: -0.014, z: -0.633}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1296118883871450231}
@@ -568,7 +568,7 @@ TrailRenderer:
   m_Time: 1
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 2
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -581,6 +581,15 @@ TrailRenderer:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.91505796
+        value: 0.3090909
+        inSlope: -2.478468
+        outSlope: -2.478468
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.161017
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1944,7 +1953,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296118883871101035}
   m_LocalRotation: {x: -0.70524335, y: 0.2412576, z: 0.55635965, w: 0.36727446}
-  m_LocalPosition: {x: -0.0017324248, y: -0.00039446354, z: 0.63680357}
+  m_LocalPosition: {x: -0.0017320563, y: -0.00039827824, z: 0.63680357}
   m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
   m_Children:
   - {fileID: 1296118883871450121}
@@ -3268,7 +3277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"levelMusic","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"trail","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"levelMusic","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"trail","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 1146274640924630994}
