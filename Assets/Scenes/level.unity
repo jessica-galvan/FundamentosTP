@@ -6991,7 +6991,7 @@ RectTransform:
   m_Children:
   - {fileID: 399723630}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14356,7 +14356,7 @@ Transform:
   - {fileID: 1565915274}
   - {fileID: 1711196282}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &438650384
 MonoBehaviour:
@@ -17627,6 +17627,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4107423125469877467, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4107423125469877467, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -17662,6 +17672,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[22]
       value: 
       objectReference: {fileID: 308260402}
+    - target: {fileID: 7825360697052480209, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0470420ff2414ad4a86eebce728eb421, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
 --- !u!4 &595579473 stripped
@@ -18423,7 +18438,7 @@ RectTransform:
   - {fileID: 2001203002}
   - {fileID: 705806112}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -19779,7 +19794,7 @@ RectTransform:
   - {fileID: 58658009}
   - {fileID: 1626026389}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -37010,7 +37025,7 @@ RectTransform:
   - {fileID: 258341312}
   - {fileID: 100057171}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -40361,7 +40376,7 @@ RectTransform:
   - {fileID: 1175396204}
   - {fileID: 1977418295}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -53889,13 +53904,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1491944823}
+  - {fileID: 634949559}
   - {fileID: 1238647081}
   - {fileID: 684212466}
   - {fileID: 1279197402}
   - {fileID: 208045033}
   - {fileID: 1644960131}
   - {fileID: 438650383}
-  - {fileID: 634949559}
   - {fileID: 2052243093}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54637,7 +54652,7 @@ RectTransform:
   - {fileID: 1673886860}
   - {fileID: 1663849543}
   m_Father: {fileID: 1606482275}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -66146,7 +66161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"UICanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"collectable","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"freezeGame","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"UICanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"collectable","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"freezeGame","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isBossFight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1606482269}
 --- !u!4 &1979603843
@@ -70636,6 +70651,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 1491944822}
+    - target: {fileID: 445322473684109443, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":80.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"levelMusic","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"trail","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"denied","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 1296118883871352453, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_Name
@@ -70644,7 +70664,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.19
+      value: -8.2
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -70654,7 +70674,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 111.6
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
