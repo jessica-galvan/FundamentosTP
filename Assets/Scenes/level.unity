@@ -620,6 +620,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: c180056acdbd9164d8efe832a1ebbda0, type: 3}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
       objectReference: {fileID: 1146274640532160233}
@@ -9041,7 +9046,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cf4030ec99de5074092c1cd64436520e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.535
+  m_Volume: 0.529
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14764,25 +14769,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1200516777}
     m_Modifications:
-    - target: {fileID: 1024790831, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.000006605289
-      objectReference: {fileID: 0}
-    - target: {fileID: 1024790831, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.148059
-      objectReference: {fileID: 0}
-    - target: {fileID: 1024790831, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.08118879
-      objectReference: {fileID: 0}
     - target: {fileID: 1077356408, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
       propertyPath: m_Name
       value: Boss Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 1077356408, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1077356410, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14828,41 +14817,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 784905078528073498, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 1261811288, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
+      propertyPath: Priority
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1261811288, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
+      propertyPath: Loop
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1253069891592323590, guid: c6cfc32748fb5004aa11a1be074b5c58,
+    - target: {fileID: 1734188427710912893, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 86fb56533a6ca5c40ad40aee25b91532, type: 3}
-    - target: {fileID: 2502916059482251243, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c40458ab8b0ffaa4ca2d571331d73872, type: 3}
-    - target: {fileID: 2538936706839310421, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Name
+      value: BossRange
       objectReference: {fileID: 0}
-    - target: {fileID: 5355057506308208535, guid: c6cfc32748fb5004aa11a1be074b5c58,
+    - target: {fileID: 3682231443815893500, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1147b2600b4128249abd542394dbd423, type: 3}
-    - target: {fileID: 6369770478282367711, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: c180056acdbd9164d8efe832a1ebbda0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
       objectReference: {fileID: 1146274640532160233}
+    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 1809353186}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[7]
@@ -14875,19 +14857,19 @@ PrefabInstance:
       objectReference: {fileID: 684212465}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
+      propertyPath: _data._objectReferences.Array.data[17]
+      value: 
+      objectReference: {fileID: 634949558}
+    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[18]
+      value: 
+      objectReference: {fileID: 335912114}
+    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackZone","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"detectionBox","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"anticipationTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRangeAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"victoryScreenTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":4.8,"$type":"System.Single"},"$version":"A"},{"name":"spawnAttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"rangoArea","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"halfLife","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HUD","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bloodEffect","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundVictory","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackZone","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"detectionBox","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"anticipationTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRangeAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"victoryScreenTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":4.8,"$type":"System.Single"},"$version":"A"},{"name":"spawnAttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"rangoArea","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"halfLife","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HUD","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bloodEffect","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundVictory","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvasTrigger","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvas","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"musicLevel","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bossMusic","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isPlayingMusic","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
-    - target: {fileID: 6859387307534424754, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 74efbed7385c7d94a98210a590e55146, type: 3}
-    - target: {fileID: 7522683982825377271, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 9c1c7512ff9ba4c499968669369f7dbc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
 --- !u!4 &595579473 stripped
@@ -15432,6 +15414,81 @@ Transform:
   m_Father: {fileID: 720259680}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &634949558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 634949559}
+  - component: {fileID: 634949561}
+  - component: {fileID: 634949560}
+  m_Layer: 5
+  m_Name: BossLifeBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &634949559
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634949558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2001203002}
+  - {fileID: 705806112}
+  m_Father: {fileID: 1606482275}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -53.700012, y: -67}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &634949560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634949558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &634949561
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634949558}
+  m_CullTransparentMesh: 0
 --- !u!1 &636739060
 GameObject:
   m_ObjectHideFlags: 0
@@ -17072,6 +17129,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &705806111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705806112}
+  - component: {fileID: 705806115}
+  - component: {fileID: 705806114}
+  - component: {fileID: 705806113}
+  m_Layer: 5
+  m_Name: BOSS NAME
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &705806112
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705806111}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 634949559}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 53.9, y: 20.5}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &705806113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705806111}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39607844}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!114 &705806114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705806111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\xB7 GIANT TALOS \xB7"
+--- !u!222 &705806115
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705806111}
+  m_CullTransparentMesh: 0
 --- !u!1 &706874312
 GameObject:
   m_ObjectHideFlags: 0
@@ -23071,6 +23221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door_v2 - coins (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487340749997429502, guid: 3acd79e0a64c677479f096aeacb93c4a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3acd79e0a64c677479f096aeacb93c4a, type: 3}
@@ -40479,6 +40634,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1443630826}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1444240092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1444240093}
+  - component: {fileID: 1444240095}
+  - component: {fileID: 1444240094}
+  m_Layer: 5
+  m_Name: healthBarDamage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1444240093
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444240092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001203002}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 2, y: 0}
+  m_SizeDelta: {x: 96, y: 6}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1444240094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444240092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1444240095
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444240092}
+  m_CullTransparentMesh: 0
 --- !u!1 &1445115960
 GameObject:
   m_ObjectHideFlags: 0
@@ -46704,7 +46932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"healthCurrent","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthMax","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarCurrent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healthBarDamageTaken","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"maxHealthVector","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"collectableText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"menu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorMessage","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlMenu","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inControl","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"blood","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canBleed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"musicLevel","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"selectMenu","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameOverScreen","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HUD","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"healthCurrent","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthMax","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarCurrent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healthBarDamageTaken","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"maxHealthVector","value":{"x":1.0,"y":1.0,"z":1.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"collectableText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"menu","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorMessage","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"doorText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"controlMenu","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"inControl","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"blood","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canBleed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"musicLevel","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"selectMenu","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameOverScreen","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HUD","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"boss","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 170719499}
     - {fileID: 792529211}
@@ -46719,6 +46947,7 @@ MonoBehaviour:
     - {fileID: 1238647080}
     - {fileID: 684212465}
     - {fileID: 1491944822}
+    - {fileID: 634949558}
 --- !u!114 &1606482272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46797,6 +47026,7 @@ RectTransform:
   - {fileID: 208045033}
   - {fileID: 1644960131}
   - {fileID: 438650383}
+  - {fileID: 634949559}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50403,6 +50633,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1804441356}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1809353184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809353185}
+  - component: {fileID: 1809353187}
+  - component: {fileID: 1809353186}
+  m_Layer: 5
+  m_Name: healthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1809353185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809353184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001203002}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -0.19999695, y: 0}
+  m_SizeDelta: {x: 200, y: 10}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!114 &1809353186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809353184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.99215686, g: 0.07273637, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1a4524a11c1ed56409e9075aa4e59434, type: 3}
+  m_Type: 3
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 0
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1809353187
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809353184}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1810751048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52234,6 +52537,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
       propertyPath: m_Name
       value: Enemy Warrior (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -57531,6 +57838,94 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1998295238}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2001203001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001203002}
+  - component: {fileID: 2001203005}
+  - component: {fileID: 2001203004}
+  - component: {fileID: 2001203003}
+  m_Layer: 5
+  m_Name: healthBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2001203002
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001203001}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1444240093}
+  - {fileID: 1809353185}
+  m_Father: {fileID: 634949559}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 55.1, y: -50.3}
+  m_SizeDelta: {x: 200, y: 10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2001203003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001203001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2001203004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001203001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.52156866}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2001203005
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001203001}
+  m_CullTransparentMesh: 0
 --- !u!1 &2009503171
 GameObject:
   m_ObjectHideFlags: 0
@@ -60630,7 +61025,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.8
+      value: 33.5
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -60640,7 +61035,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 113.8
+      value: 296.7
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
