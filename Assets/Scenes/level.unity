@@ -14817,24 +14817,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1261811288, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: Priority
-      value: 61
-      objectReference: {fileID: 0}
-    - target: {fileID: 1261811288, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1734188427710912893, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_Name
-      value: BossRange
-      objectReference: {fileID: 0}
-    - target: {fileID: 3682231443815893500, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -14865,11 +14847,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[18]
       value: 
       objectReference: {fileID: 335912114}
-    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":60.0,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackZone","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"detectionBox","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"anticipationTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRangeAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"victoryScreenTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":4.8,"$type":"System.Single"},"$version":"A"},{"name":"spawnAttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"rangoArea","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"halfLife","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HUD","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bloodEffect","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundVictory","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvasTrigger","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvas","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"musicLevel","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bossMusic","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isPlayingMusic","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
 --- !u!4 &595579473 stripped
@@ -23225,7 +23202,7 @@ PrefabInstance:
     - target: {fileID: 1487340749997429502, guid: 3acd79e0a64c677479f096aeacb93c4a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3acd79e0a64c677479f096aeacb93c4a, type: 3}
@@ -28038,7 +28015,7 @@ PrefabInstance:
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -66.1
+      value: -56.5
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
@@ -28048,7 +28025,7 @@ PrefabInstance:
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -84.18
+      value: -84.2
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
@@ -37867,17 +37844,17 @@ PrefabInstance:
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -45.8
+      value: -80.74
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: 4.97
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62
+      value: -84.13
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
@@ -50645,7 +50622,7 @@ GameObject:
   - component: {fileID: 1809353187}
   - component: {fileID: 1809353186}
   m_Layer: 5
-  m_Name: healthBar
+  m_Name: BosshBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52540,7 +52517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53693,12 +53670,12 @@ PrefabInstance:
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -84.18
+      value: -94.71
       objectReference: {fileID: 0}
     - target: {fileID: 6538331650563365169, guid: 53cfa4c062d78e341852155972cba3d2,
         type: 3}
@@ -57851,7 +57828,7 @@ GameObject:
   - component: {fileID: 2001203004}
   - component: {fileID: 2001203003}
   m_Layer: 5
-  m_Name: healthBackground
+  m_Name: bossBarBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61025,7 +61002,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.5
+      value: -10.19
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -61035,7 +61012,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 296.7
+      value: 114.1
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
