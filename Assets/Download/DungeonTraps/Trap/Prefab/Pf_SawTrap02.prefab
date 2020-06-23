@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"continious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"timerCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 203739242161127146}
     - {fileID: 2937069563116143025}
@@ -629,7 +629,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: efc2d33c94c386c46a06ef52b2641981, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -638,7 +638,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 12.6
+  MaxDistance: 10
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0

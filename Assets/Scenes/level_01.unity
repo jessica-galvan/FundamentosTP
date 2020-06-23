@@ -2826,7 +2826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"continious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"timerCooldown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"canDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isPaying","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"continious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"timerCooldown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"canDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 77128680}
     - {fileID: 822855964}
@@ -8815,7 +8815,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: efc2d33c94c386c46a06ef52b2641981, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8824,7 +8824,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 18
+  MaxDistance: 22.77
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -10731,7 +10731,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cf4030ec99de5074092c1cd64436520e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.529
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -13900,6 +13900,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1223743780, guid: 04c11f75ea6385a4eb9f4f260aba0402, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"continious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"timerCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04c11f75ea6385a4eb9f4f260aba0402, type: 3}
 --- !u!4 &424584263 stripped
@@ -14859,7 +14863,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: efc2d33c94c386c46a06ef52b2641981, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -14868,7 +14872,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 18
+  MaxDistance: 22.77
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -17623,6 +17627,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4107423125469877467, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4107423125469877467, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855647739385506428, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.9655523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855647739385506428, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.02453809
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855647739385506428, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 1.9897165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855647739385506428, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.29218057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855647739385506428, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.7190257
+      objectReference: {fileID: 0}
     - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
@@ -17658,6 +17697,16 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[22]
       value: 
       objectReference: {fileID: 308260402}
+    - target: {fileID: 6633587585871137309, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackZone","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"detectionBox","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"anticipationTime","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canRangeAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"victoryScreenTime","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"spawnAttackPoint","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"rangoArea","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"halfLife","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HUD","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"victoryScreen","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"bloodEffect","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundVictory","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvasTrigger","value":{"$content":16,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeCanvas","value":{"$content":17,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"musicLevel","value":{"$content":18,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isPlayingMusic","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"Talos_Intro","value":{"$content":19,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Talos_Loop","value":{"$content":20,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Talos_End","value":{"$content":21,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"invisibleDoor","value":{"$content":22,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isInvisibleDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825360697052480209, guid: c6cfc32748fb5004aa11a1be074b5c58,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0470420ff2414ad4a86eebce728eb421, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cfc32748fb5004aa11a1be074b5c58, type: 3}
 --- !u!4 &595579473 stripped
@@ -18035,50 +18084,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 594047867}
     m_Modifications:
-    - target: {fileID: 1294734253585079181, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.2717983
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585079181, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.00000034586736
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585180033, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.24300382
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585180033, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000006307822
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585180035, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.2709084
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585180035, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000000024581084
-      objectReference: {fileID: 0}
     - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.0018487433
+      value: -0.0018487587
       objectReference: {fileID: 0}
     - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.021381091
-      objectReference: {fileID: 0}
-    - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
-        type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.48884457
+      value: -0.02138082
       objectReference: {fileID: 0}
     - target: {fileID: 1294734253587871005, guid: 27bdae0809095274887296d97cad3943,
         type: 3}
@@ -23602,7 +23616,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: efc2d33c94c386c46a06ef52b2641981, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.67
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -23611,7 +23625,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 18
+  MaxDistance: 22.77
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -31697,16 +31711,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1923210050066772214, guid: ce898fdcb7684734b8b25310bcb1600e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2317059820623522024, guid: ce898fdcb7684734b8b25310bcb1600e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3763455538737714392, guid: ce898fdcb7684734b8b25310bcb1600e,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
@@ -31717,16 +31721,6 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[15]
       value: 
       objectReference: {fileID: 658048907}
-    - target: {fileID: 5600943926064320025, guid: ce898fdcb7684734b8b25310bcb1600e,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5734183266903317322, guid: ce898fdcb7684734b8b25310bcb1600e,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
 --- !u!4 &1072452006 stripped
@@ -36069,6 +36063,10 @@ PrefabInstance:
     - target: {fileID: 448300, guid: 04c11f75ea6385a4eb9f4f260aba0402, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223743780, guid: 04c11f75ea6385a4eb9f4f260aba0402, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"trigger","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damage","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"sound","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"continious","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canDamage","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"timerCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04c11f75ea6385a4eb9f4f260aba0402, type: 3}
@@ -53765,7 +53763,7 @@ MonoBehaviour:
     - {fileID: 274577907}
     - {fileID: 1644960130}
     - {fileID: 947171969}
-    - {fileID: 335912114}
+    - {fileID: 0}
     - {fileID: 438650382}
     - {fileID: 1238647080}
     - {fileID: 684212465}
@@ -56764,6 +56762,11 @@ PrefabInstance:
       objectReference: {fileID: 658048907}
     - target: {fileID: 3763455538737714392, guid: ce898fdcb7684734b8b25310bcb1600e,
         type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763455538737714392, guid: ce898fdcb7684734b8b25310bcb1600e,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
       objectReference: {fileID: 1146274640532160233}
@@ -56777,6 +56780,11 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[15]
       value: 
       objectReference: {fileID: 658048907}
+    - target: {fileID: 3763455538737714392, guid: ce898fdcb7684734b8b25310bcb1600e,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"attackCooldown","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDuration","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"attackArea","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"player","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"lifeBar","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"deathAnimationTimer","value":{"$content":1.4,"$type":"System.Single"},"$version":"A"},{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"detectionBox","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canMove","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"moveCooldown","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"maxDetectionDistance","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"attackDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackZone","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"bloodEffect","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAttack","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundDead","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundAnticipation","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundFootsteps","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isRunning","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"anticipationTimer","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Mesh","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"coinEffect","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canvas","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"camera","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce898fdcb7684734b8b25310bcb1600e, type: 3}
 --- !u!4 &1738628850 stripped
@@ -57621,6 +57629,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 594047867}
     m_Modifications:
+    - target: {fileID: 1294734253585079181, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.271783
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585079181, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000405472
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180033, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.2430037
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180033, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.0000007499915
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180035, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.27090833
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180035, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.00000006206275
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.0018487251
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.021381058
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253585180093, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.48884463
+      objectReference: {fileID: 0}
     - target: {fileID: 1294734253587871005, guid: 27bdae0809095274887296d97cad3943,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57675,6 +57728,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934131, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.39980164
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934131, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4796291
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934131, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0017396148
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934131, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934131, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.893285
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934135, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934135, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294734253587934135, guid: 27bdae0809095274887296d97cad3943,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.001739502
       objectReference: {fileID: 0}
     - target: {fileID: 1294734253588000666, guid: 27bdae0809095274887296d97cad3943,
         type: 3}
@@ -66005,7 +66098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"UICanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"collectable","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"freezeGame","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isBossFight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"canPause","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"UICanvas","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerDead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"collectable","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"freezeGame","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"isBossFight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1606482269}
 --- !u!4 &1979603843
@@ -70497,14 +70590,14 @@ PrefabInstance:
       objectReference: {fileID: 1491944822}
     - target: {fileID: 445322473684109443, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":80.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"levelMusic","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"trail","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"denied","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 445322473684109443, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[13]
       value: 
       objectReference: {fileID: 335912114}
-    - target: {fileID: 445322473684109443, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"MAX_LIFE","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"lifePoints","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"collectableCantidad","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"lifeBar","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackArea","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"attackCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"attackIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeed","value":{"$content":7.0,"$type":"System.Single"},"$version":"A"},{"name":"rotatespeed","value":{"$content":75.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"canJump","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"healingAbilityIcon","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingAbilityPoints","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"healingAbilityCoolDown","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"canAddHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPerformHeal","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"healingEffectParticles","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"healingEffectTimer","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GameOverScreen","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameOverScreenTime","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"HUD","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"movementSpeedUp","value":{"$content":9.0,"$type":"System.Single"},"$version":"A"},{"name":"originalSpeed","value":{"$content":7,"$type":"System.Int32"},"$version":"A"},{"name":"sonidoSlash","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoHealing","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoTakeDamage","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoFootsteps","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sonidoJump","value":{"$content":11,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"soundGameOver","value":{"$content":12,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canPlayFootSteps","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"levelMusic","value":{"$content":13,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"trail","value":{"$content":14,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"denied","value":{"$content":15,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1296118883871352453, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_Name
@@ -70513,7 +70606,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.79
+      value: 8.6
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
@@ -70523,7 +70616,7 @@ PrefabInstance:
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 110.25
+      value: 308
       objectReference: {fileID: 0}
     - target: {fileID: 1296118883871390373, guid: 812f8b744f7e65a4d93ad1bfd1136d81,
         type: 3}
